@@ -1,21 +1,169 @@
-.container{
-    width: 100%;
-    height: 1500px;
-    background-color: blue;
-    display: flex;
+* {
+    margin: 0%;
+    padding: 0%;
 }
-.block_1{
-    width: 500px;
-    height: 700px;
-    background-color: brown;
-    align-self: center;
-    margin-left: 20%;
-    padding-left: 200px;
-}
-.block_2{
-    display: flex;
+.top_row{
     width: 100%;
     height: 100px;
-    background-color: burlywood;
-    margin-left: 0%;
+    background-color: darkslategray;
 }
+.nav {
+    margin: 0 auto;
+    width: 1100px;
+    height: 100px;
+    background-color: darkslategray;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+    width: 30%;
+    margin: 10px;
+}
+.nav-title{
+    color: turquoise;
+    font-size: 60px;
+    margin: 15px;
+}
+.nav a{
+    text-decoration: none;
+    color: turquoise;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.btn{
+    height: 30px;
+    box-shadow: 1px 5px 5px black;
+    border: none;
+    background-color: yellow;
+    color: darkslategray;
+    margin-right: 30px;
+}
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+.box{
+    display: flex;
+    display: inline-flex;
+}
+.collum{
+    margin: 10px;
+    padding: 10px;
+    background-color: darkslategray;
+    flex: 2;
+    justify-content: center;
+    border-radius: 20px;
+}
+.collum_2{
+    margin: 10px;
+    padding: 10px;
+    background-color: darkslategray;
+    flex: 1;
+    border-radius: 20px;
+}
+
+
+/* Start of the User Card */
+
+
+.User_card{
+    width: 500px;
+    height: 250px;
+    background-color: white;
+    align-self: center;
+    border-radius: 20px;
+    margin: 20px;
+}
+.header{
+    width: 500px;
+    height: 70px;
+    background-color: turquoise;
+    display: flex;
+}
+h1{
+    font: bold;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: block;
+    margin-bottom: 0px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+p{
+    margin-left: 20px;
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
+h2{
+    margin-top: 3px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    font-size: 13px;
+}
+h3{
+    font-size: 15px;
+    margin-top: 3px;
+}
+.change{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.gear{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+.user_circle{
+    height: 80px;
+    margin-left: 60px;
+    border-radius: 50%;
+    background-color: ivory;
+    padding: 5px;
+    margin-top: 30px;
+}
+.marker{
+    height: 15px;
+    width: 15px;
+    margin-right: 10px;
+}
+
+
+/* End of the User Card*/
+
+/*begining of education card */
+
+
+.education_card{
+    width: 500px;
+    height: 200px;
+    background-color: white;
+    justify-self: flex-end;
+    margin: 20px;
+    border-radius: 20px;
+}
+.header_2{
+    width: 500px;
+    height: 70px;
+    background-color: turquoise;
+}
+h4{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.education_text{
+    padding: 20px;
+}
+
+
+/* end of education card */
+
+/* start of connection request card */
+
+
