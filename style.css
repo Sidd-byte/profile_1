@@ -45,7 +45,7 @@
     margin-right: 30px;
 }
 .container{
-    width: 1100px;
+    width: 1300px;
     margin: 0 auto;
 }
 .box{
@@ -64,8 +64,8 @@
     margin: 10px;
     padding: 10px;
     background-color: darkslategray;
-    flex: 1;
-    border-radius: 20px;
+    flex:1;
+    justify-content: center;
 }
 
 
@@ -166,4 +166,29 @@ h4{
 
 /* start of connection request card */
 
-
+.topCard_right{
+    background-color: white;
+    height: 200px;
+    width: 300px;
+    align-content: center;
+}
+.bottomCard_right{
+    background-color: white;
+    height: 200px;
+    width: 300px;
+}
+.header_bar3{
+    background-color: turquoise;
+    width: 300px;
+    height: 50px;
+}
+h5 {
+    margin-left: 20px;
+    padding: 10px;
+    font: 20px;
+}
+.userImg , .accCircle , .closeCircle{
+    height: 20px;
+    width: 20px;
+    margin: 0px;
+}
